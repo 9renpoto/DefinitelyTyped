@@ -1,4 +1,5 @@
 {
+    "extends": "../tsconfig",
     "compilerOptions": {
         "module": "commonjs",
         "lib": [
@@ -7,11 +8,11 @@
         ],
         "noImplicitAny": true,
         "noImplicitThis": true,
-        "strictNullChecks": false,
+        "strictNullChecks": true,
         "strictFunctionTypes": true,
-        "baseUrl": "../",
+        "baseUrl": "../../",
         "typeRoots": [
-            "../"
+            "../../"
         ],
         "types": [],
         "noEmit": true,
@@ -19,7 +20,6 @@
     },
     "files": [
         "index.d.ts",
-        "intl-tel-input-tests.ts",
-        "test/module-tests.ts"
+        "cadesplugin-tests.ts"
     ]
 }

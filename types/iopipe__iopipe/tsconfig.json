@@ -2,12 +2,11 @@
     "compilerOptions": {
         "module": "commonjs",
         "lib": [
-            "es6",
-            "dom"
+            "es6"
         ],
         "noImplicitAny": true,
         "noImplicitThis": true,
-        "strictNullChecks": false,
+        "strictNullChecks": true,
         "strictFunctionTypes": true,
         "baseUrl": "../",
         "typeRoots": [
@@ -19,7 +18,9 @@
     },
     "files": [
         "index.d.ts",
-        "intl-tel-input-tests.ts",
-        "test/module-tests.ts"
-    ]
+        "iopipe__iopipe-tests.ts"
+    ],
+    "paths": {
+        "@iopipe/iopipe": ["iopipe__iopipe"]
+    }
 }
