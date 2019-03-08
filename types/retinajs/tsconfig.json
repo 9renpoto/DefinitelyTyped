@@ -8,22 +8,16 @@
         "noImplicitThis": true,
         "strictNullChecks": true,
         "strictFunctionTypes": true,
-        "baseUrl": "../../",
+        "baseUrl": "../",
         "typeRoots": [
-            "../../"
+            "../"
         ],
-        "paths": {
-            "ora": [
-                "ora/v1"
-            ]
-        },
         "types": [],
         "noEmit": true,
-        "forceConsistentCasingInFileNames": true,
-        "esModuleInterop": true
+        "forceConsistentCasingInFileNames": true
     },
     "files": [
         "index.d.ts",
-        "ora-tests.ts"
+        "retinajs-tests.ts"
     ]
 }
